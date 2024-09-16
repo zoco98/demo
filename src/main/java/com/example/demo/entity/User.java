@@ -14,6 +14,7 @@ import jakarta.persistence.Table;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 public class User {
 
     @Id
