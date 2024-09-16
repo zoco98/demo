@@ -1,12 +1,10 @@
 package com.example.demo.entity;
 
-import jakarta.validation.constraints.Pattern;
-import lombok.*;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.*;
 @Entity
 @Data
 @Table(name = "user")
